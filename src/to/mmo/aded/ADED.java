@@ -8,13 +8,18 @@
  */
 package to.mmo.aded;
 
-import to.mmo.aded.IEntity.ItemEntry;
-import to.mmo.aded.IEntity.Type;
-import to.mmo.aded.IItem.Format;
 import to.mmo.aded.service.Configuration;
 import to.mmo.aded.storage.ADEDPersistency;
 import to.mmo.adis.EntityValue;
 import to.mmo.adis.ItemValue;
+import to.mmo.adis.structure.Entity;
+import to.mmo.adis.structure.ICodeset;
+import to.mmo.adis.structure.IEntity;
+import to.mmo.adis.structure.IItem;
+import to.mmo.adis.structure.Item;
+import to.mmo.adis.structure.IEntity.ItemEntry;
+import to.mmo.adis.structure.IEntity.Type;
+import to.mmo.adis.structure.IItem.Format;
 
 /* Plans:
  * Store information in database. Get Entity/Item data on demand from DB

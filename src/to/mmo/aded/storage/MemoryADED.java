@@ -12,9 +12,9 @@ import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 
-import to.mmo.aded.Codeset;
-import to.mmo.aded.Entity;
-import to.mmo.aded.Item;
+import to.mmo.adis.structure.Codeset;
+import to.mmo.adis.structure.Entity;
+import to.mmo.adis.structure.Item;
 
 public class MemoryADED implements ADEDPersistency, ADEDStorage {
 	private String version;

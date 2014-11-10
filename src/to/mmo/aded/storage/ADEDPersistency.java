@@ -10,9 +10,9 @@ package to.mmo.aded.storage;
 
 import java.util.Collection;
 
-import to.mmo.aded.Codeset;
-import to.mmo.aded.Entity;
-import to.mmo.aded.Item;
+import to.mmo.adis.structure.Codeset;
+import to.mmo.adis.structure.Entity;
+import to.mmo.adis.structure.Item;
 
 public interface ADEDPersistency {
 

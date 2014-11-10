@@ -15,17 +15,17 @@ import java.util.ArrayList;
 import java.util.List;
 
 import to.mmo.aded.ADED;
-import to.mmo.aded.Codeset;
-import to.mmo.aded.Entity;
-import to.mmo.aded.IEntity;
-import to.mmo.aded.IItem.Format;
-import to.mmo.aded.Item;
 import to.mmo.aded.common.ADEDRepository;
 import to.mmo.aded.storage.MemoryADED;
 import to.mmo.adis.ADIS;
 import to.mmo.adis.EntityValue;
 import to.mmo.adis.ItemValue;
 import to.mmo.adis.parser.ADISStreamHandler;
+import to.mmo.adis.structure.Codeset;
+import to.mmo.adis.structure.Entity;
+import to.mmo.adis.structure.IEntity;
+import to.mmo.adis.structure.Item;
+import to.mmo.adis.structure.IItem.Format;
 
 /*
  * Definition loader for files like the ADIS/ADED files supplied by the LKV NRW and defined with the entities 190001-190016.
